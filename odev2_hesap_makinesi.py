@@ -38,7 +38,7 @@ if secim == '-':
 #Çarpma
 if secim == '*':
    sonuc = sayi1 * sayi2
-print(f'Sonuç: {sayi1} * {sayi2} = {sanuc}')
+    print(f'Sonuç: {sayi1} * {sayi2} = {sanuc}')
 
 #Bölme
 if seçim == '/':
@@ -59,9 +59,9 @@ elif secim == '//':
     print(f'Sonuç: {sayi1} // {sayi2} = {sanuc}')
     print('Hata bir sayi 0 bölünemez!')
 except ValueError: #try ve excapt ikilisi birbirinden ayrılmaz. işlem yapmayı deneyin (try) eğer kullanıcı kullanıcı harf girerse ve değer hatası (excapt ValueError) çıkarsa uyarı göster devam et
-print('Hata: geçerli bir sayı giriniz!')
+    print('Hata: geçerli bir sayı giriniz!')
 else:
-print('Geçeraiz seçim yaptınız! Lütfen +,-,*,/,**,// veya çıkış için 'q' giriniz.'
+    print('Geçeraiz seçim yaptınız! Lütfen +,-,*,/,**,// veya çıkış için 'q' giriniz.'
 
 
 
